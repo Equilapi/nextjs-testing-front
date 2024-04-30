@@ -8,7 +8,5 @@ async function fetchUsers() {
 export default async function Home() {
   const users = await fetchUsers()
 
-  return <div>
-    <Users users={users} />
-  </div>
+  return <Users users={users} />
 }

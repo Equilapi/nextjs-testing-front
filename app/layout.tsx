@@ -21,7 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navigation />
-        {children}
+        <div className="container-md container-sm flex justify-center">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
